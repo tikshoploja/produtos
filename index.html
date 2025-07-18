@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikShop Loja</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            padding: 1rem;
+            text-align: center;
+            color: white;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0.5rem;
+        }
+
+        header h1 {
+            margin: 0.5rem 0 0.2rem;
+            font-size: 1.4rem;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .search-bar input {
+            width: 90%;
+            padding: 0.7rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .controls select {
+            padding: 0.5rem;
+            font-size: 1rem;
+            border-radius: 6px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .product {
+            background: white;
+            padding: 0.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .product h3 {
+            font-size: 1rem;
+            margin: 0.5rem 0 0.3rem;
+        }
+
+        .product p {
+            margin: 0;
+            font-weight: bold;
+            color: #ff5722;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- Substitua o src abaixo pela URL da sua imagem -->
+        <img src="https://via.placeholder.com/80" alt="Foto da Loja">
+        <h1>TikShop Loja</h1>
+        <p>🛒 LINKS DOS PRODUTOS 🔗</p>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Buscar produto...">
+    </div>
+
+    <div class="controls">
+        <select id="sort">
+            <option value="newest">Mais novo</option>
+            <option value="oldest">Mais antigo</option>
+            <option value="cheapest">Mais barato</option>
+            <option value="expensive">Mais caro</option>
+        </select>
+    </div>
+
+    <div class="products" id="productList"></div>
+
+    <script>
+        const products = [
+            {
+                name: "Miniatura Mercedes Bens Sprinter",
+                price: 179.99,
+                image: "https://via.placeholder.com/250",
+                link: "https://shopee.com.br/produto1"
+            },
+            {
+                name: "Jogo Panelas Revestimento Mármore",
+                price: 249.90,
+                image: "https://via.placeholder.com/250",
+                link: "https://shopee.com.br/produto2"
+            },
+            {
+                name: "Miniatura Caminhão Scania V8",
+                price: 199.50,
+                image: "https://via.placeholder.com/250",
+                link: "https://shopee.com.br/produto3"
+            }
+        ];
+
+        const productList = document.getElementById("productList");
+        const searchInput = document.getElementById("search");
+        const sortSelect = document.getElementById("sort");
+
+        function renderProducts(list) {
+            productList.innerHTML = "";
+            list.forEach(product => {
+                const card = document.createElement("div");
+                card.className = "product";
+                card.innerHTML = `
+          <a href="${product.link}" target="_blank">
+            <img src="${product.image}" alt="${product.name}" />
+          </a>
+          <h3>${product.name}</h3>
+          <p>R$ ${product.price.toFixed(2)}</p>
+        `;
+                productList.appendChild(card);
+            });
+        }
+
+        function sortProducts(value, list) {
+            if (value === "newest") return [...list].reverse();
+            if (value === "oldest") return [...list];
+            if (value === "cheapest") return [...list].sort((a, b) => a.price - b.price);
+            if (value === "expensive") return [...list].sort((a, b) => b.price - a.price);
+        }
+
+        function filterAndRender() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const sortValue = sortSelect.value;
+            const filtered = products.filter(product =>
+                product.name.toLowerCase().includes(searchTerm)
+            );
+            const sorted = sortProducts(sortValue, filtered);
+            renderProducts(sorted);
+        }
+
+        searchInput.addEventListener("input", filterAndRender);
+        sortSelect.addEventListener("change", filterAndRender);
+
+        // Inicial
+        renderProducts([...products].reverse());
+    </script>
+
+</body>
+
+</html>
