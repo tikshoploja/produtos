@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TikShop Loja</title>
+    <link rel="icon" href="./assets/Logo TikShop.png" type="image/png">
     <style>
         * {
             box-sizing: border-box;
@@ -65,23 +66,36 @@
 
         .products {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1rem;
             padding: 1rem;
+            justify-items: center;
         }
 
         .product {
             background: white;
+            width: 250px;
             padding: 0.5rem;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .product img {
             width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
             border-radius: 8px;
             cursor: pointer;
+        }
+
+        .product a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .product h3 {
@@ -94,14 +108,23 @@
             font-weight: bold;
             color: #ff5722;
         }
+
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .product {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
 <body>
 
     <header>
-        <!-- Substitua o src abaixo pela URL da sua imagem -->
-        <img src="https://via.placeholder.com/80" alt="Foto da Loja">
+        <img src="./assets/Logo TikShop.png" alt="Foto da Loja">
         <h1>TikShop Loja</h1>
         <p>🛒 LINKS DOS PRODUTOS 🔗</p>
     </header>
@@ -124,22 +147,34 @@
     <script>
         const products = [
             {
-                name: "Miniatura Mercedes Bens Sprinter",
-                price: 179.99,
-                image: "https://via.placeholder.com/250",
-                link: "https://shopee.com.br/produto1"
+                name: "Limpador de Pincel",
+                price: 29.99,
+                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lw505j7cyhmd45.webp",
+                link: "https://s.shopee.com.br/2qJgfcxyfs"
             },
             {
-                name: "Jogo Panelas Revestimento Mármore",
-                price: 249.90,
-                image: "https://via.placeholder.com/250",
-                link: "https://shopee.com.br/produto2"
+                name: "Escova Mágica De Limpeza",
+                price: 33.27,
+                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m527v5unmuth56.webp",
+                link: "https://s.shopee.com.br/9zmqt19alu"
             },
             {
-                name: "Miniatura Caminhão Scania V8",
-                price: 199.50,
-                image: "https://via.placeholder.com/250",
-                link: "https://shopee.com.br/produto3"
+                name: "Jogo De Panelas",
+                price: 178.90,
+                image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd6g-lwzxw7nfhf8g8c.webp",
+                link: "https://s.shopee.com.br/gFBhciwY0"
+            },
+            {
+                name: "Robô Aspirador",
+                price: 59.99,
+                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0ehkmzn6oox1c@resize_w450_nl.webp",
+                link: "https://s.shopee.com.br/gFBfjD0iR"
+            },
+            {
+                name: "Kit Cozinha MasterChef",
+                price: 33.55,
+                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymnuq0mfjpx9c@resize_w450_nl.webp",
+                link: "https://s.shopee.com.br/3fslp4Ri6M"
             }
         ];
 
@@ -155,9 +190,9 @@
                 card.innerHTML = `
           <a href="${product.link}" target="_blank">
             <img src="${product.image}" alt="${product.name}" />
+            <h3>${product.name}</h3>
+            <p>R$ ${product.price.toFixed(2)}</p>
           </a>
-          <h3>${product.name}</h3>
-          <p>R$ ${product.price.toFixed(2)}</p>
         `;
                 productList.appendChild(card);
             });
