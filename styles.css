@@ -27,6 +27,15 @@ header h1 {
     font-size: 1.4rem;
 }
 
+header h2 {
+    margin: 1rem 0 0.2rem;
+    font-size: 1rem;
+}
+
+header span {
+    opacity: .7;
+}
+
 .search-bar {
     display: flex;
     justify-content: center;
