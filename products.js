@@ -1,0 +1,32 @@
+const products = [
+    {
+        name: "Limpador de Pincel",
+        price: 29.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lw505j7cyhmd45.webp",
+        link: "https://s.shopee.com.br/2qJgfcxyfs"
+    },
+    {
+        name: "Escova Mágica De Limpeza",
+        price: 33.27,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m527v5unmuth56.webp",
+        link: "https://s.shopee.com.br/9zmqt19alu"
+    },
+    {
+        name: "Jogo De Panelas",
+        price: 178.90,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd6g-lwzxw7nfhf8g8c.webp",
+        link: "https://s.shopee.com.br/gFBhciwY0"
+    },
+    {
+        name: "Robô Aspirador",
+        price: 59.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0ehkmzn6oox1c@resize_w450_nl.webp",
+        link: "https://s.shopee.com.br/gFBfjD0iR"
+    },
+    {
+        name: "Kit Cozinha MasterChef",
+        price: 33.55,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymnuq0mfjpx9c@resize_w450_nl.webp",
+        link: "https://s.shopee.com.br/3fslp4Ri6M"
+    }
+];

@@ -2,11 +2,11 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TikShop Loja</title>
 
-    <!-- Open Graph (Facebook, WhatsApp, etc.) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="TikShop Loja - Produtos Incríveis com Desconto!" />
     <meta property="og:description"
         content="Confira nossa vitrine com os melhores produtos da Shopee. Entrega rápida e cupons de desconto!" />
@@ -23,133 +23,20 @@
         content="https://github.com/tikshoploja/produtos/blob/main/assets/Logo%20TikShop.png?raw=true" />
 
     <link rel="icon" href="https://github.com/tikshoploja/produtos/blob/main/assets/Logo%20TikShop.png?raw=true"
-        type="image/png">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f5f5f5;
-        }
-
-        header {
-            background: linear-gradient(to right, #ff512f, #dd2476);
-            padding: 1rem;
-            text-align: center;
-            color: white;
-        }
-
-        header img {
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-            margin-bottom: 0.5rem;
-        }
-
-        header h1 {
-            margin: 0.5rem 0 0.2rem;
-            font-size: 1.4rem;
-        }
-
-        .search-bar {
-            display: flex;
-            justify-content: center;
-            margin: 1rem;
-        }
-
-        .search-bar input {
-            width: 90%;
-            padding: 0.7rem;
-            font-size: 1rem;
-            border-radius: 8px;
-            border: 1px solid #ccc;
-        }
-
-        .controls {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .controls select {
-            padding: 0.5rem;
-            font-size: 1rem;
-            border-radius: 6px;
-        }
-
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            padding: 1rem;
-            justify-items: center;
-        }
-
-        .product {
-            background: white;
-            width: 250px;
-            padding: 0.5rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .product img {
-            width: 100%;
-            aspect-ratio: 1 / 1;
-            object-fit: cover;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-
-        .product a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .product h3 {
-            font-size: 1rem;
-            margin: 0.5rem 0 0.3rem;
-        }
-
-        .product p {
-            margin: 0;
-            font-weight: bold;
-            color: #ff5722;
-        }
-
-        @media (max-width: 600px) {
-            .products {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .product {
-                width: 100%;
-            }
-        }
-    </style>
+        type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-
     <header>
         <img src="https://github.com/tikshoploja/produtos/blob/main/assets/Logo%20TikShop.png?raw=true"
-            alt="Foto da Loja">
+            alt="Foto da Loja" />
         <h1>TikShop Loja</h1>
         <p>🛒 LINKS DOS PRODUTOS 🔗</p>
     </header>
 
     <div class="search-bar">
-        <input type="text" id="search" placeholder="Buscar produto...">
+        <input type="text" id="search" placeholder="Buscar produto..." />
     </div>
 
     <div class="controls">
@@ -163,84 +50,8 @@
 
     <div class="products" id="productList"></div>
 
-    <script>
-        const products = [
-            {
-                name: "Limpador de Pincel",
-                price: 29.99,
-                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lw505j7cyhmd45.webp",
-                link: "https://s.shopee.com.br/2qJgfcxyfs"
-            },
-            {
-                name: "Escova Mágica De Limpeza",
-                price: 33.27,
-                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m527v5unmuth56.webp",
-                link: "https://s.shopee.com.br/9zmqt19alu"
-            },
-            {
-                name: "Jogo De Panelas",
-                price: 178.90,
-                image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd6g-lwzxw7nfhf8g8c.webp",
-                link: "https://s.shopee.com.br/gFBhciwY0"
-            },
-            {
-                name: "Robô Aspirador",
-                price: 59.99,
-                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0ehkmzn6oox1c@resize_w450_nl.webp",
-                link: "https://s.shopee.com.br/gFBfjD0iR"
-            },
-            {
-                name: "Kit Cozinha MasterChef",
-                price: 33.55,
-                image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymnuq0mfjpx9c@resize_w450_nl.webp",
-                link: "https://s.shopee.com.br/3fslp4Ri6M"
-            }
-        ];
-
-        const productList = document.getElementById("productList");
-        const searchInput = document.getElementById("search");
-        const sortSelect = document.getElementById("sort");
-
-        function renderProducts(list) {
-            productList.innerHTML = "";
-            list.forEach(product => {
-                const card = document.createElement("div");
-                card.className = "product";
-                card.innerHTML = `
-          <a href="${product.link}" target="_blank">
-            <img src="${product.image}" alt="${product.name}" />
-            <h3>${product.name}</h3>
-            <p>R$ ${product.price.toFixed(2)}</p>
-          </a>
-        `;
-                productList.appendChild(card);
-            });
-        }
-
-        function sortProducts(value, list) {
-            if (value === "newest") return [...list];
-            if (value === "oldest") return [...list].reverse();
-            if (value === "cheapest") return [...list].sort((a, b) => a.price - b.price);
-            if (value === "expensive") return [...list].sort((a, b) => b.price - a.price);
-        }
-
-        function filterAndRender() {
-            const searchTerm = searchInput.value.toLowerCase();
-            const sortValue = sortSelect.value;
-            const filtered = products.filter(product =>
-                product.name.toLowerCase().includes(searchTerm)
-            );
-            const sorted = sortProducts(sortValue, filtered);
-            renderProducts(sorted);
-        }
-
-        searchInput.addEventListener("input", filterAndRender);
-        sortSelect.addEventListener("change", filterAndRender);
-
-        sortSelect.value = "newest";
-        filterAndRender();
-    </script>
-
+    <script src="products.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
