@@ -1,13 +1,24 @@
-* {
-    box-sizing: border-box;
+/* RESET E ESTRUTURA FLEXIBLE PARA STICKY FOOTER */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f5f5f5;
 }
 
+main {
+    flex: 1;
+}
+
+/* HEADER */
 header {
     background: linear-gradient(to right, #ff512f, #dd2476);
     padding: 1rem;
@@ -36,6 +47,7 @@ header span {
     opacity: .7;
 }
 
+/* BARRA DE BUSCA */
 .search-bar {
     display: flex;
     justify-content: center;
@@ -50,6 +62,7 @@ header span {
     border: 1px solid #ccc;
 }
 
+/* CONTROLES DE FILTRO/ORDENAÇÃO */
 .controls {
     display: flex;
     justify-content: center;
@@ -64,6 +77,7 @@ header span {
     border-radius: 6px;
 }
 
+/* LISTAGEM DE PRODUTOS */
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -108,6 +122,41 @@ header span {
     color: #ff5722;
 }
 
+/* FOOTER */
+footer {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-content img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.footer-content h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.footer-content p {
+    margin: 0.3rem 0 0;
+    font-size: 0.9rem;
+    max-width: 300px;
+}
+
+/* RESPONSIVIDADE */
 @media (max-width: 600px) {
     .products {
         grid-template-columns: repeat(2, 1fr);
@@ -115,5 +164,10 @@ header span {
 
     .product {
         width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
     }
 }
