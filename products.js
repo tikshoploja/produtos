@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Karseell Collagen - Tratamento Capilar",
+        price: 22.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lwlretvo5a4y41.webp",
+        link: "https://s.shopee.com.br/7piUEt14af"
+    },
+    {
         name: "Limpador de Pincel",
         price: 29.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lw505j7cyhmd45.webp",
