@@ -126,7 +126,7 @@ header span {
 footer {
     background: linear-gradient(to right, #ff512f, #dd2476);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     text-align: center;
 }
 
@@ -134,26 +134,44 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    flex-direction: row;
+    gap: 2rem;
     flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.footer-content img {
+.footer-logo img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
-.footer-content h2 {
+.footer-separator {
+    width: 1px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-text {
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-text h2 {
     margin: 0;
     font-size: 1.2rem;
 }
 
-.footer-content p {
+.footer-text p {
     margin: 0.3rem 0 0;
     font-size: 0.9rem;
-    max-width: 300px;
+}
+
+/* COPYRIGHT */
+footer .copyright {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
 
 /* RESPONSIVIDADE */
@@ -168,6 +186,14 @@ footer {
 
     .footer-content {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-separator {
+        display: none;
+    }
+
+    .footer-text {
         text-align: center;
     }
 }
