@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mini Rodo Esfregão",
+        price: 12.89,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rcc7-ltb8mvlocoa2d4.webp",
+        link: "https://s.shopee.com.br/8UyCehVM4j"
+    },
+    {
         name: "Espremedor Elétrico Portátil",
         price: 65.79,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lqy7j7hfu7foe4.webp",
