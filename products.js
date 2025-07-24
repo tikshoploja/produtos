@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Espremedor Elétrico",
+        price: 65.79,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lqy7j7hfu7foe4.webp",
+        link: "https://s.shopee.com.br/2B47b0mEcA"
+    },
+    {
         name: "Fone/Headset Bluetooth",
         price: 32.97,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lomqjeb9ouk2cc.webp",
