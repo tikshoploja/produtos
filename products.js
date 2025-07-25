@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Escova Secadora 5 em 1",
+        price: 67.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdy8-mc8hulngya5c53.webp",
+        link: "https://s.shopee.com.br/1BBdsug4Np"
+    },
+    {
         name: "Garrafa Térmica Inoxidável com Tampa e Canudo",
         price: 39.98,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m27sald0uqme5e.webp",
