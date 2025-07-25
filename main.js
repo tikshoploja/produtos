@@ -8,12 +8,12 @@ function renderProducts(list) {
         const card = document.createElement("div");
         card.className = "product";
         card.innerHTML = `
-            <a href="${product.link}" target="_blank">
-                <img src="${product.image}" alt="${product.name}" />
-                <h3>${product.name}</h3>
-                <p>R$ ${product.price.toFixed(2)}</p>
-            </a>
-        `;
+      <a href="${product.link}" target="_blank">
+        <img src="${product.image}" alt="${product.name}" />
+        <h3>${product.name}</h3>
+        <p>R$ ${product.price.toFixed(2)}</p>
+      </a>
+    `;
         productList.appendChild(card);
     });
 }
