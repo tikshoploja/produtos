@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Garrafa Térmica Inoxidável com Tampa e Canudo",
+        price: 39.98,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m27sald0uqme5e.webp",
+        link: "https://s.shopee.com.br/3AwhhF8lLm"
+    },
+    {
         name: "Mini Rodo Esfregão",
         price: 12.89,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rcc7-ltb8mvlocoa2d4.webp",
