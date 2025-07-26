@@ -179,25 +179,20 @@ footer .copyright {
   opacity: 0.8;
 }
 
-/* PAGINAÇÃO */
-.pagination-controls {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-}
-
-.pagination-controls select {
-  padding: 0.4rem;
-  margin-left: 0.5rem;
-  font-size: 1rem;
+/* PAGINAÇÃO + QUANTIDADE */
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .pagination {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 2rem;
 }
 
 .pagination button {
@@ -214,6 +209,21 @@ footer .copyright {
 .pagination button.active,
 .pagination button:hover {
   background-color: #dd2476;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.pagination-controls label {
+  margin-right: 0.5rem;
+}
+
+.pagination-controls select {
+  padding: 0.4rem;
+  font-size: 1rem;
 }
 
 /* MOBILE */
@@ -239,6 +249,15 @@ footer .copyright {
   .footer-text {
     text-align: center;
   }
+
+  .pagination-wrapper {
+    flex-direction: column;
+  }
+
+  .pagination-controls {
+    margin-top: 0.5rem;
+    justify-content: center;
+  }
 }
 
 /* EXTRA MOBILE <400px */
@@ -247,18 +266,9 @@ footer .copyright {
     grid-template-columns: 1fr !important;
   }
 
-  .product h3 {
-    font-size: 0.9rem;
-  }
-
-  .product p {
-    font-size: 0.9rem;
-  }
-
-  .search-bar input {
-    font-size: 0.9rem;
-  }
-
+  .product h3,
+  .product p,
+  .search-bar input,
   .controls select,
   .pagination-controls select {
     font-size: 0.9rem;
