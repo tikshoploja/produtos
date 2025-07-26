@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Organizador de Maquiagem Giratório 360º",
+        price: 39.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m415wji061xdd5.webp",
+        link: "https://s.shopee.com.br/4VS70855j1"
+    },
+    {
         name: "Kit Livro de Colorir + Canetinhas Marca Texto",
         price: 29.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mcahjd5s3qflfe.webp",
