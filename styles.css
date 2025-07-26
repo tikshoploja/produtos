@@ -226,11 +226,12 @@ footer .copyright {
   font-size: 1rem;
 }
 
-/* MOBILE */
+/* MOBILE: até 600px mantém duas colunas */
 @media (max-width: 600px) {
   .products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 
   .product {
@@ -260,10 +261,15 @@ footer .copyright {
   }
 }
 
-/* EXTRA MOBILE <400px */
-@media (max-width: 400px) {
+/* EXTRA MOBILE: abaixo de 480px, uma coluna centralizada */
+@media (max-width: 480px) {
   .products {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .product {
+    width: 90%;
   }
 
   .product h3,
