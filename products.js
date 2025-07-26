@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Kit Livro de Colorir + Canetinhas Marca Texto",
+        price: 29.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mcahjd5s3qflfe.webp",
+        link: "https://s.shopee.com.br/9zn3VZ6O1B"
+    },
+    {
         name: "Escova Secadora 5 em 1",
         price: 67.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdy8-mc8hulngya5c53.webp",
