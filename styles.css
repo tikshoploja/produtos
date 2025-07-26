@@ -43,7 +43,7 @@ header h2 {
 }
 
 header span {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* BARRA DE BUSCA */
@@ -179,6 +179,43 @@ footer .copyright {
   opacity: 0.8;
 }
 
+/* PAGINAÇÃO */
+.pagination-controls {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.pagination-controls select {
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff512f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.pagination button.active,
+.pagination button:hover {
+  background-color: #dd2476;
+}
+
 /* MOBILE */
 @media (max-width: 600px) {
   .products {
@@ -201,5 +238,34 @@ footer .copyright {
 
   .footer-text {
     text-align: center;
+  }
+}
+
+/* EXTRA MOBILE <400px */
+@media (max-width: 400px) {
+  .products {
+    grid-template-columns: 1fr !important;
+  }
+
+  .product h3 {
+    font-size: 0.9rem;
+  }
+
+  .product p {
+    font-size: 0.9rem;
+  }
+
+  .search-bar input {
+    font-size: 0.9rem;
+  }
+
+  .controls select,
+  .pagination-controls select {
+    font-size: 0.9rem;
+  }
+
+  .pagination button {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.9rem;
   }
 }
