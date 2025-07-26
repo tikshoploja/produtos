@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Projetor 4K HD",
+        price: 204.49,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvm98b66j9zyb5.webp",
+        link: "https://s.shopee.com.br/9pTdb9cc24"
+    },
+    {
         name: "Organizador de Maquiagem Giratório 360º",
         price: 39.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m415wji061xdd5.webp",
