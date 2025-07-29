@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Espelho Redondo",
+        price: 150.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvn8oc7p8j5222.webp",
+        link: "https://s.shopee.com.br/5L1JCel7nR"
+    },
+    {
         name: "Projetor 4K HD",
         price: 204.49,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvm98b66j9zyb5.webp",
