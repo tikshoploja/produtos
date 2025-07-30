@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Escova De Limpeza Ajustável",
+        price: 69.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ln91fcbvnuwzbd.webp",
+        link: "https://s.shopee.com.br/50OUAcX9qd"
+    },
+    {
         name: "Espelho Redondo",
         price: 150.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvn8oc7p8j5222.webp",
