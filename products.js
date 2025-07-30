@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Copo Térmico Café",
+        price: 36.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxt-mc5s6ipbwzcc6a.webp",
+        link: "https://s.shopee.com.br/3qCWnwwrS0"
+    },
+    {
         name: "Escova De Limpeza Ajustável",
         price: 69.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ln91fcbvnuwzbd.webp",
