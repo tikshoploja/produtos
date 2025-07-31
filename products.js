@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Kit 2 Calças Premium",
+        price: 79.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7vbu3elqx0416.webp",
+        link: "https://s.shopee.com.br/4q55mHwbkk"
+    },
+    {
         name: "Aspirador De Pó Portátil",
         price: 25.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lgnnrx41wbeece.webp",
