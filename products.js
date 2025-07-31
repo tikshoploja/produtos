@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Kit 10 Limpador de Máquina de Lavar",
+        price: 19.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lv98cwwitsix1e.webp",
+        link: "https://s.shopee.com.br/6fWjarBfZt"
+    },
+    {
         name: "Copo Térmico Café",
         price: 36.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rdxt-mc5s6ipbwzcc6a.webp",
