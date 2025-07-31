@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Tapete De Banheiro Soft",
+        price: 15.98,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lijcoe244olbe6.webp",
+        link: "https://s.shopee.com.br/7V5qegSdgJ"
+    },
+    {
         name: "Kit 10 Limpador de Máquina de Lavar",
         price: 19.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lv98cwwitsix1e.webp",
