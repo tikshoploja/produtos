@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Aspirador De Pó Portátil",
+        price: 25.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lgnnrx41wbeece.webp",
+        link: "https://s.shopee.com.br/5VKmW9YUs0"
+    },
+    {
         name: "Mesas de Cabeceira Retro de Luxo",
         price: 29.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7i0w8b1jgkyeb.webp",
