@@ -24,7 +24,7 @@ const products = [
         link: "https://s.shopee.com.br/50OUAcX9qd"
     },
     {
-        name: "Espelho Redondo",
+        name: "Espelho Redondo com Led",
         price: 150.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lvn8oc7p8j5222.webp",
         link: "https://s.shopee.com.br/5L1JCel7nR"
