@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mesas de Cabeceira Retro de Luxo",
+        price: 29.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7i0w8b1jgkyeb.webp",
+        link: "https://s.shopee.com.br/4ApOkLtZLa"
+    },
+    {
         name: "Tapete De Banheiro Soft",
         price: 15.98,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lijcoe244olbe6.webp",
