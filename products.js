@@ -6,6 +6,12 @@ const products = [
         link: "https://s.shopee.com.br/5VKmW9YUs0"
     },
     {
+        name: "Mop Spray Giratório",
+        price: 34.70,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8eraexb3mz5e0.webp",
+        link: "https://s.shopee.com.br/qYwycMQo9"
+    },
+    {
         name: "Mesas de Cabeceira Retro de Luxo",
         price: 29.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7i0w8b1jgkyeb.webp",
