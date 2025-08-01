@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mini Máquina de Donuts Elétrica",
+        price: 34.89,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd3y-m6tvmu38rojfbe.webp",
+        link: "https://s.shopee.com.br/Vw86LarJY"
+    },
+    {
         name: "Chaleira Elétrica Térmica",
         price: 53.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mcgf55h49wdua6.webp",
