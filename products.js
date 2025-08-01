@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Frigideira Antiaderente 3 em 1 com Divisórias",
+        price: 38.69,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly431d2zarkn44.webp",
+        link: "https://s.shopee.com.br/40W01G28Lq"
+    },
+    {
         name: "Kit 2 Calças Premium",
         price: 79.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7vbu3elqx0416.webp",
