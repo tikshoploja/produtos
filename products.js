@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Kit 2 Mini Câmeras Wifi",
+        price: 56.80,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly58zskpi8f973.webp",
+        link: "https://s.shopee.com.br/9Uqwxe2Pjd"
+    },
+    {
         name: "Mini Máquina de Donuts Elétrica",
         price: 34.89,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd3y-m6tvmu38rojfbe.webp",
