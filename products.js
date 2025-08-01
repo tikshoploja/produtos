@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Chaleira Elétrica Térmica",
+        price: 53.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mcgf55h49wdua6.webp",
+        link: "https://s.shopee.com.br/50OXEs378q"
+    },
+    {
         name: "Frigideira Antiaderente 3 em 1 com Divisórias",
         price: 38.69,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly431d2zarkn44.webp",
