@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Limpa Tênis Spray",
+        price: 21.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ln294i2qa7nn2f.webp",
+        link: "https://s.shopee.com.br/4L8sHMGoXU"
+    },
+    {
         name: "Copo Térmico Stanley",
         price: 38.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mc1bsqqxz3c744.webp",
