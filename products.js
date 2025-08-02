@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Copo Térmico Stanley",
+        price: 38.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mc1bsqqxz3c744.webp",
+        link: "https://s.shopee.com.br/1LVGg2Chpu"
+    },
+    {
         name: "Garrafa Térmica Wood Luxo",
         price: 49.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma1okn32zojm7e.webp",
