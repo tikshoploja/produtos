@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Garrafa Térmica Wood Luxo",
+        price: 49.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma1okn32zojm7e.webp",
+        link: "https://s.shopee.com.br/2LNniC43ge"
+    },
+    {
         name: "Kit 2 Mini Câmeras Wifi",
         price: 56.80,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly58zskpi8f973.webp",
