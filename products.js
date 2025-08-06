@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Descascador de Legumes e Frutas Aço Inox",
+        price: 10.00,
+        image: "https://down-br.img.susercontent.com/file/dad9ae9affd1fa308482a36fede2ff9c.webp",
+        link: "https://s.shopee.com.br/1Von8x2jlE"
+    },
+    {
         name: "Limpa Tênis Spray",
         price: 21.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ln294i2qa7nn2f.webp",
