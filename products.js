@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Bolsa Térmica Oxford",
+        price: 26.59,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfhi-m391xkpb6go5af.webp",
+        link: "https://s.shopee.com.br/1g8F9wV8uB"
+    },
+    {
         name: "Seladora a Vácuo Doméstica",
         price: 39.99,
         image: "https://down-br.img.susercontent.com/file/8219f7187cf57c3b509f276fea512aea.webp",
