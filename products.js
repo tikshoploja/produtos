@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Suporte Escova de Dentes com Esterilizador UV",
+        price: 31.49,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-23020-sg5a34ihvxnva9.webp",
+        link: "https://s.shopee.com.br/3Ax1nExpv9"
+    },
+    {
         name: "Descascador de Legumes e Frutas Aço Inox",
         price: 10.00,
         image: "https://down-br.img.susercontent.com/file/dad9ae9affd1fa308482a36fede2ff9c.webp",
