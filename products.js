@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Seladora a Vácuo Doméstica",
+        price: 39.99,
+        image: "https://down-br.img.susercontent.com/file/8219f7187cf57c3b509f276fea512aea.webp",
+        link: "https://s.shopee.com.br/2qKCCHdeDE"
+    },
+    {
         name: "Suporte Escova de Dentes com Esterilizador UV",
         price: 31.49,
         image: "https://down-br.img.susercontent.com/file/br-11134207-23020-sg5a34ihvxnva9.webp",
