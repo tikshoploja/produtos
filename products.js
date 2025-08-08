@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Airpods PRO iOS E Android",
+        price: 57.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0aevpbnfqlj7c.webp",
+        link: "https://s.shopee.com.br/2B4WzLHyP9"
+    },
+    {
         name: "Bolsa Térmica Oxford",
         price: 26.59,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfhi-m391xkpb6go5af.webp",
