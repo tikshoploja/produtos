@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Relógio Digital Esportivo com LED",
+        price: 19.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5g7eh8yxmytb2.webp",
+        link: "https://s.shopee.com.br/2VhNbiy8Yi"
+    },
+    {
         name: "Airpods PRO iOS E Android",
         price: 57.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0aevpbnfqlj7c.webp",
