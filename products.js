@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Massageador De Pescoço",
+        price: 89.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-llzwn4xp07p219.webp",
+        link: "https://s.shopee.com.br/9pU9N1oae0"
+    },
+    {
         name: "Relógio Digital Esportivo com LED",
         price: 19.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5g7eh8yxmytb2.webp",
