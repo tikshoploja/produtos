@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mini Ferro de Passar Roupas a Vapor Portátil",
+        price: 28.50,
+        image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-maky1469ia6121.webp",
+        link: "https://s.shopee.com.br/20lQJWlPRb"
+    },
+    {
         name: "Suporte para Talheres e Tampas de Panelas",
         price: 21.17,
         image: "https://down-br.img.susercontent.com/file/br-11134207-23030-yiyg71im6mov83.webp",
