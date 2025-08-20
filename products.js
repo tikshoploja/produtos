@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Suporte para Talheres e Tampas de Panelas",
+        price: 21.17,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-23030-yiyg71im6mov83.webp",
+        link: "https://s.shopee.com.br/1Vp9MMcF7M"
+    },
+    {
         name: "Massageador De Pescoço",
         price: 89.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-llzwn4xp07p219.webp",
