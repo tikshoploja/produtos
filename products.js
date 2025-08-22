@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Lixeira Automática com Sensor",
+        price: 86.80,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymd7qh5hq5126.webp",
+        link: "https://s.shopee.com.br/8fINNMMLCq"
+    },
+    {
         name: "Mini Ferro de Passar Roupas a Vapor Portátil",
         price: 28.50,
         image: "https://down-br.img.susercontent.com/file/br-11134201-7r98o-maky1469ia6121.webp",
