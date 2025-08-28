@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Antiembaçante Wurth",
+        price: 21.12,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m22l427zzopwe2.webp",
+        link: "https://s.shopee.com.br/60HlREYRKV"
+    },
+    {
         name: "Lixeira Automática com Sensor",
         price: 86.80,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymd7qh5hq5126.webp",
