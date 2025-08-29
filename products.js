@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Cabeceira Premium Modular para Cama",
+        price: 26.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mct9733wmipe55.webp",
+        link: "https://s.shopee.com.br/5pyN7VEkw9"
+    },
+    {
         name: "Antiembaçante Wurth",
         price: 21.12,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m22l427zzopwe2.webp",
