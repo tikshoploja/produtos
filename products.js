@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Liquidificador Portátil USB",
+        price: 21.87,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98q-llmij8jid08q65.webp",
+        link: "https://s.shopee.com.br/10tFHVaywU"
+    },
+    {
         name: "Cabeceira Premium Modular para Cama",
         price: 26.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mct9733wmipe55.webp",
