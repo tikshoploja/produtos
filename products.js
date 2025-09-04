@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Aspirador de Pó Portátil Sem Fio 2 em 1",
+        price: 79.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7qvdy-lgtkv8om3kmn11.webp",
+        link: "https://s.shopee.com.br/2LOeLeVMS0"
+    },
+    {
         name: "Liquidificador Portátil USB",
         price: 21.87,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98q-llmij8jid08q65.webp",
