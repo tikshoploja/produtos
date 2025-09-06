@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Dispenser Organizador para Lavanderia",
+        price: 49.90,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mait1w700eq773.webp",
+        link: "https://s.shopee.com.br/gGTNa4uSX"
+    },
+    {
         name: "Aspirador de Pó Portátil Sem Fio 2 em 1",
         price: 79.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7qvdy-lgtkv8om3kmn11.webp",
