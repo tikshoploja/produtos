@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mochila Antifurto com USB e Trava Numérica",
+        price: 18.80,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m907zyp335du74.webp",
+        link: "https://s.shopee.com.br/30eT9ydA9k"
+    },
+    {
         name: "Dispenser Organizador para Lavanderia",
         price: 49.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mait1w700eq773.webp",
