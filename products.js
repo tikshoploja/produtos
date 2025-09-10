@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Conjunto Completo de Limpeza Dobrável",
+        price: 89.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7vkqonwmphw06.webp",
+        link: "https://s.shopee.com.br/20lxZd1jGc"
+    },
+    {
         name: "Mochila Antifurto com USB e Trava Numérica",
         price: 18.80,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m907zyp335du74.webp",
