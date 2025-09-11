@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Reprodutor Remoto PlayStation Portal para Console PS5 Branco Portátil",
+        price: 1390.00,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7reo4-m2sj6c4ab3vr87.webp",
+        link: "https://s.shopee.com.br/7V6vldy5Py"
+    },
+    {
         name: "Conjunto Completo de Limpeza Dobrável",
         price: 89.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7vkqonwmphw06.webp",
