@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Jogo de Facas Inox 6 Peças com Suporte",
+        price: 25.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lujxp2aqb2w573.webp",
+        link: "https://s.shopee.com.br/4VTToecRO4"
+    },
+    {
         name: "Sanduicheira Multifunções Cadence",
         price: 128.90,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m1ziu831ixgkf1.webp",
