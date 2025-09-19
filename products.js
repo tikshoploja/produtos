@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Suporte Ajustável para Micro-ondas e Forno",
+        price: 146.98,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rfha-m96uzlucxyhze6.webp",
+        link: "https://s.shopee.com.br/6fY1G53HMp"
+    },
+    {
         name: "Jogo de Facas Inox 6 Peças com Suporte",
         price: 25.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lujxp2aqb2w573.webp",
