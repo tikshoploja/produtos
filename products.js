@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Borracha de Pelos Indolor",
+        price: 11.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lo7ft39g2gng55.webp",
+        link: "https://s.shopee.com.br/9AFUQ4jZ0q"
+    },
+    {
         name: "Espumador de Leite Mini Mixer",
         price: 24.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd58-m7wvyoubdwvd3e.webp",
