@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Cortador Multifuncional 12 em 1",
+        price: 49.88,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lo8udaowkl2hfe.webp",
+        link: "https://s.shopee.com.br/8UzsFdNAHU"
+    },
+    {
         name: "Bastão de Selfie Tripé 2 em 1 com Bluetooth e Luz",
         price: 13.88,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbl9-m62ruuwm7hg7ce.webp",
