@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mini Mop Portátil",
+        price: 11.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4p0wcv2qwqd9f.webp",
+        link: "https://s.shopee.com.br/gGualjVB6"
+    },
+    {
         name: "Cortador Multifuncional 12 em 1",
         price: 49.88,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lo8udaowkl2hfe.webp",
@@ -28,12 +34,6 @@ const products = [
         price: 24.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rd58-m7wvyoubdwvd3e.webp",
         link: "https://s.shopee.com.br/3qDxyOfJah"
-    },
-    {
-        name: "Mini Mop Portátil",
-        price: 11.99,
-        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4p0wcv2qwqd9f.webp",
-        link: "https://s.shopee.com.br/gGualjVB6"
     },
     {
         name: "Suporte Ajustável para Micro-ondas e Forno",
