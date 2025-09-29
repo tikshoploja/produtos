@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Lixeira Suspensa Adesiva Anti Odor",
+        price: 29.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lm7nuwbtr03bc9.webp",
+        link: "https://s.shopee.com.br/VxXhX8sCk"
+    },
+    {
         name: "Mini Mop Portátil",
         price: 11.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4p0wcv2qwqd9f.webp",
@@ -16,12 +22,6 @@ const products = [
         price: 13.88,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbl9-m62ruuwm7hg7ce.webp",
         link: "https://s.shopee.com.br/6prcwmIrL1"
-    },
-    {
-        name: "Lixeira Suspensa Adesiva Anti Odor",
-        price: 29.99,
-        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lm7nuwbtr03bc9.webp",
-        link: "https://s.shopee.com.br/VxXhX8sCk"
     },
     {
         name: "Borracha de Pelos Indolor",
