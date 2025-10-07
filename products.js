@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Escorredor de Silicone Retrátil Multiuso",
+        price: 12.38,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdepddclfjddea.webp",
+        link: "https://s.shopee.com.br/1LWy0HMwqa"
+    },
+    {
         name: "Mini Mop Portátil",
         price: 11.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4p0wcv2qwqd9f.webp",
