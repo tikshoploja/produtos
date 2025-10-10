@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Seladora a Vácuo Doméstica Bivolt",
+        price: 30.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rasr-maljd1hrxgsw3a.webp",
+        link: "https://s.shopee.com.br/BL4zQ8URz"
+    },
+    {
         name: "Escorredor de Silicone Retrátil Multiuso",
         price: 12.38,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdepddclfjddea.webp",
