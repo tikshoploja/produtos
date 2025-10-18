@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Carteira Gamer 3D Inspirada no PS5",
+        price: 60.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7qt8t7wc32s2a.webp",
+        link: "https://s.shopee.com.br/9fCN5YBRuZ"
+    },
+    {
         name: "Seladora a Vácuo Doméstica Bivolt",
         price: 30.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rasr-maljd1hrxgsw3a.webp",
