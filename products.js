@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "SUPER MANTA LÍQUIDA 1KG",
+        price: 20.25,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7ratt-mac21ppuhc5a2c.webp",
+        link: "https://s.shopee.com.br/7AVGs9n6h5"
+    },
+    {
         name: "Carteira Gamer 3D Inspirada no PS5",
         price: 60.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7qt8t7wc32s2a.webp",
