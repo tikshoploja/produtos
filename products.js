@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Escova a Vapor para Gatos",
+        price: 11.90,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rffn-m36d9h4mhbnybe.webp",
+        link: "https://s.shopee.com.br/3qEtOES893"
+    },
+    {
         name: "SUPER MANTA LÍQUIDA 1KG",
         price: 20.25,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7ratt-mac21ppuhc5a2c.webp",
