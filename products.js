@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Cabide Multifuncional Inox para 5 Calças",
+        price: 16.90,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rffp-m9ap9hk607dl5b.webp",
+        link: "https://s.shopee.com.br/9KZy7fKwai"
+    },
+    {
         name: "Escova a Vapor para Gatos",
         price: 11.90,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rffn-m36d9h4mhbnybe.webp",
