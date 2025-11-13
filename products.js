@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Suporte de Acrílico 360° para Celular e Tablet",
+        price: 24.99,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8f8lxdllbsh71.webp",
+        link: "https://s.shopee.com.br/30g8nsfPRZ"
+    },
+    {
         name: "Jogo Cai Não Cai TETRIS Estrela",
         price: 54.44,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0xlo0116on4eb.webp",
