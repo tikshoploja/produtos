@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Cortador Mandoline Multifuncional",
+        price: 40.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbm6-loecbsych3up36.webp",
+        link: "https://s.shopee.com.br/8AOGoUXmX6"
+    },
+    {
         name: "Suporte de Acrílico 360° para Celular e Tablet",
         price: 24.99,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8f8lxdllbsh71.webp",
