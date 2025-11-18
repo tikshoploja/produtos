@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Tábua Mágica Descongelante",
+        price: 27.98,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7ra2t-mbm89mkdr8h3da.webp",
+        link: "https://s.shopee.com.br/3qFNpu4dLc"
+    },
+    {
         name: "Cortador Mandoline Multifuncional",
         price: 40.99,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7rbm6-loecbsych3up36.webp",
