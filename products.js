@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Pano Multiuso de Microfibra em Rolo",
+        price: 39.10,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8277c5j7jzl89.webp",
+        link: "https://s.shopee.com.br/3qFSOkQcjn"
+    },
+    {
         name: "Tábua Mágica Descongelante",
         price: 27.98,
         image: "https://down-br.img.susercontent.com/file/sg-11134201-7ra2t-mbm89mkdr8h3da.webp",
