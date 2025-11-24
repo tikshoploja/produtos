@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Escova Multifuncional 7 em 1",
+        price: 9.25,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly56reg8o1efd8.webp",
+        link: "https://s.shopee.com.br/8056Qhavzu"
+    },
+    {
         name: "Pano Multiuso de Microfibra em Rolo",
         price: 39.10,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8277c5j7jzl89.webp",
