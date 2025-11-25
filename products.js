@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Vestido de Linho Feminino Elegante",
+        price: 79.80,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0j1yvyy3eddfd.webp",
+        link: "https://s.shopee.com.br/9Utw1xTVey"
+    },
+    {
         name: "Escova Multifuncional 7 em 1",
         price: 9.25,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly56reg8o1efd8.webp",
