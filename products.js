@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Kit Unha Gel Manicure",
+        price: 145.02,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m847xn2qdn1t44.webp",
+        link: "https://s.shopee.com.br/gIYaWZTuT"
+    },
+    {
         name: "Vestido de Linho Feminino Elegante",
         price: 79.80,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0j1yvyy3eddfd.webp",
