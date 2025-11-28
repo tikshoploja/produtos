@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Lixador de Pé Elétrico Portátil",
+        price: 19.00,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lte8oayb6lh4aa.webp",
+        link: "https://s.shopee.com.br/5fhHdxx5Mw"
+    },
+    {
         name: "Kit Unha Gel Manicure",
         price: 145.02,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m847xn2qdn1t44.webp",
