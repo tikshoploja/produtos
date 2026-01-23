@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Mala De Viagem/Bordo",
+        price: 121.50,
+        image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6kfam0o02sw54.webp",
+        link: "https://s.shopee.com.br/2B8rOehRl8"
+    },
+    {
         name: "Lixador de Pé Elétrico Portátil",
         price: 19.00,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lte8oayb6lh4aa.webp",
@@ -424,5 +430,5 @@ const products = [
         price: 33.55,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lymnuq0mfjpx9c@resize_w450_nl.webp",
         link: "https://s.shopee.com.br/3fslp4Ri6M"
-    }
+    },
 ];

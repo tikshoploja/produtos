@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -55,10 +59,17 @@ header span {
 
 .search-bar input {
   width: 90%;
+  max-width: 500px;
   padding: 0.7rem;
   font-size: 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #ff512f;
 }
 
 /* CONTROLES DE FILTRO/ORDENAÇÃO */
@@ -74,6 +85,7 @@ header span {
   padding: 0.5rem;
   font-size: 1rem;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 /* PRODUTOS */
@@ -96,12 +108,14 @@ header span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  will-change: transform;
+  contain: layout style;
 }
 
 .product:hover {
-  transform: scale(1.05);
-  z-index: 1;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .product img {
@@ -115,11 +129,15 @@ header span {
 .product a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .product h3 {
   font-size: 1rem;
   margin: 0.5rem 0 0.3rem;
+  flex-grow: 1;
 }
 
 .product p {
@@ -192,6 +210,7 @@ footer .copyright {
 .pagination {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -203,7 +222,7 @@ footer .copyright {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  transition: background 0.3s;
+  transition: background-color 0.2s;
 }
 
 .pagination button.active,
@@ -224,6 +243,7 @@ footer .copyright {
 .pagination-controls select {
   padding: 0.4rem;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 /* MOBILE: até 600px mantém duas colunas */
