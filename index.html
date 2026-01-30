@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikShop Loja</title>
+    <meta name="description" content="Confira nossa vitrine com os melhores produtos da Shopee. Entrega rápida e cupons de desconto!">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="TikShop Loja - Produtos Incríveis com Desconto!">
+    <meta property="og:description" content="Confira nossa vitrine com os melhores produtos da Shopee. Entrega rápida e cupons de desconto!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/tikshoploja/produtos/main/assets/Logo%20TikShop.png">
+    <meta property="og:url" content="https://tikshoploja.github.io/produtos/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TikShop Loja - Ofertas Imperdíveis!">
+    <meta name="twitter:description" content="Acesse agora e descubra produtos incríveis com preços especiais!">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/tikshoploja/produtos/main/assets/Logo%20TikShop.png">
+
+    <link rel="icon" href="https://raw.githubusercontent.com/tikshoploja/produtos/main/assets/Logo%20TikShop.png" type="image/png">
+    <link rel="preconnect" href="https://down-br.img.susercontent.com">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://raw.githubusercontent.com/tikshoploja/produtos/main/assets/Logo%20TikShop.png" alt="Foto da Loja" width="80" height="80">
+        <h1>TikShop Loja</h1>
+        <h2>🔗 OFERTAS POR TEMPO LIMITADO 🛒</h2>
+        <span>Confira os produtos abaixo com preços promocionais por tempo limitado.</span>
+        <p>⏳ Após o prazo, os valores podem subir!<br>👉 Clique no produto e verifique a validade da oferta.</p>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Buscar produto...">
+        </div>
+
+        <div class="controls">
+            <select id="sort">
+                <option value="newest">Mais novo</option>
+                <option value="oldest">Mais antigo</option>
+                <option value="cheapest">Mais barato</option>
+                <option value="expensive">Mais caro</option>
+            </select>
+        </div>
+
+        <div class="products" id="productList"></div>
+
+        <div class="pagination-wrapper">
+            <div id="pagination" class="pagination"></div>
+            <div class="pagination-controls">
+                <label for="itemsPerPage">Mostrar:</label>
+                <select id="itemsPerPage">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://raw.githubusercontent.com/tikshoploja/produtos/main/assets/Logo%20TikShop.png" alt="Logo da Loja" width="60" height="60">
+            </div>
+            <div class="footer-separator"></div>
+            <div class="footer-text">
+                <h2>TikShop Loja</h2>
+                <p>Este site contém links de afiliado. Podemos receber comissões por compras realizadas através deles, sem custo adicional para você.</p>
+            </div>
+        </div>
+        <p class="copyright">© 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="products.js" defer></script>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
