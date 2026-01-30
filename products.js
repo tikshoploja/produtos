@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Cola para Metal",
+        price: 26.99,
+        image: "https://down-br.img.susercontent.com/file/sg-11134201-7rcch-m6crh2cutn4o91.webp",
+        link: "https://s.shopee.com.br/8fMUljMamU"
+    },
+    {
         name: "Mala De Viagem/Bordo",
         price: 121.50,
         image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m6kfam0o02sw54.webp",
